@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "sourceMap": true,
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "outDir": "dist/",
+  }
+}
