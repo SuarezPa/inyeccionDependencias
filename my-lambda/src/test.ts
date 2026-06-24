@@ -1,6 +1,6 @@
-import { AxiosAdapterImpl } from "../src/http/axios-adapter-impl.js";
-import { AxiosAdapter } from "../src/http/axios-adapter.js";
-import { Clients } from "../src/services/get-client-apadter-impl.js";
+import { AxiosAdapterImpl } from "./http/axios-adapter-impl.js";
+import { AxiosAdapter } from "./http/axios-adapter.js";
+import { Clients } from "./services/get-client-apadter-impl.js";
 
 // const consultFunctionalProccess = async () => {
 //     const client = new AxiosAdapterImpl();

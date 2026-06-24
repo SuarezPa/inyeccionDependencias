@@ -1,5 +1,5 @@
-import { AxiosAdapterImpl } from "../src/http/axios-adapter-impl.js";
-import { Clients } from "../src/services/get-client-apadter-impl.js";
+import { AxiosAdapterImpl } from "./http/axios-adapter-impl.js";
+import { Clients } from "./services/get-client-apadter-impl.js";
 // const consultFunctionalProccess = async () => {
 //     const client = new AxiosAdapterImpl();
 //     let respone = await client.get('https://jsonplaceholder.typicode.com/todos/1');

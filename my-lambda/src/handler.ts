@@ -5,7 +5,6 @@ import { TYPES } from './utils/constants.js';
 
 export const handler = async (event: any) => {
   const controller = AppContainer.get<getClientAdapter>(TYPES.getClientAdapter);
-
   const response = await controller.getClient(
     'https://rickandmortyapi.com/api/character?page=2'
   );
