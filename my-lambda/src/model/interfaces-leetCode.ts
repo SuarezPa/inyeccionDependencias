@@ -4,5 +4,9 @@ export interface LeetCodeRectangleOverlap {
 
 export interface LeetCodeLargestPerimeterTriangle {
     largestPerimeterTriangle(nums: number[]): number;
-    //rectangleOverlap(rec1: number[], rec2: number[]): boolean;
+}
+
+export interface InterfaceLeetCodeRomanToInt {
+    romanToInt(s: string): {};
+    // romanToInt(s: string): number;
 }
